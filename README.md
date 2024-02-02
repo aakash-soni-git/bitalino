@@ -6,14 +6,14 @@ It allows:
 - Plotting live sensor data. The live plot script is launched in a seperate subprocess to prevent freezing the GUI. \[do not use plt.show()\]
 - Saving the results to a CSV file. 1 column per sensor. The output file name includes the time stamp.
 
-[Dependencies :]
+## Dependencies :
   Official Bitalino library : pip install bitalino
   https://github.com/BITalinoWorld/python-api
 
-[Usage : ]
+## Usage : 
   See usage_example.py
 
-[Test :]
+## Test :
   Tested on Kubuntu 22.04
   using BITalino PsychoBIT kit (https://www.pluxbiosignals.com/en-fr/collections/bitalino/products/psychobit)
   with EDA and ECG sensors.
